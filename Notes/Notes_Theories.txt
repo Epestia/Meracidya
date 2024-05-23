@@ -1,0 +1,21 @@
+Nouveau projet Angular : ng new
+Compiler projet Angular : ng serve
+Build projet Angular : ng build
+Nouveau module : ng g m nom_du_module
+Nouveau composant : ng g c nom_du_composant -m nom_du_module
+Nouveau composant et nouveaux dossiers : ng generate component path/to/new-component --module=name-of-module. Exemple : ng generate component shared/navbar/
+Supprimer composant : ng delete component nom-du-composant 
+Nouveau Pipe : ng generate pipe pipe-name
+Nouveau Guard : ng generate guard guard-name
+Nouveau module : ng generate module module-name
+Nouveau service : ng generate service service-name
+Nouveau directive : ng generate directive directive-name
+Nouvelle class : ng generate class class-name
+Nouveau routage : ng generate module module-name-routing --flat --module=app
+Nouveau composant pour le test unitaire : ng generate component component-name --spec
+Installer boostrap : npm install bootstrap
+Installer JQuery : npm install jquery --save
+
+Notes : 
+Ne pas mettre de tiret dans le nom d'un composant. 
+Respecter la casse des noms de fichiers.

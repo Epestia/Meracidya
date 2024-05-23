@@ -1,0 +1,52 @@
+Bahamut : 
+Caducée (t1)
+ADS(t2)
+Phoenix (t12)
+Bahamut Prime (t13)
+
+
+Alexander : 
+
+Omega : 
+Alte Roite(o1s)
+Catastrophe (o2s)
+Halicarnasse(o3s)
+Exdeath/ Neo-Exdeath(o4s)
+Train Phantom(o5s)
+Demons Chadernouque (o6s)
+Guardian (o7s)
+Kefka/GodKefka(o8s)
+Chaos(o9s)
+Midgarstorm(o10s)
+Omega(o11s)
+Omega M/F / Final Omega(o12s)
+
+Eden : 
+Eden Prime(e1s)
+Voidwalker(e2s)
+Leviathan(e3s)
+Titan(e4s)
+Ramuh(e5s)
+Ifrit and Garuda(e6s)
+The Idol of Darkness(e7s)
+Shiva(e8s)
+Cloud of Darkness(e9s)
+Shadowkeeper(e10s)
+Fatebreaker(e11s)
+Eden's Promise/Oracle of Darkness(e12s)
+
+Pandemonium : 
+Erichthonios(p1s)
+Hippokampos(p2s)
+Phoenix(p3s)
+Hesperos1/2(p4s)
+Proto-Carbuncle(p5s)
+Hegemone(p6s)
+Agdistis(p7s)
+Hephaistos1/2(p8s)
+Kokytos(p9s)
+Pandaemonium(p10s)
+Themis(p11s)
+Athena/ Pallas Athena(p12s)
+
+Arcadion : 

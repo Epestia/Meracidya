@@ -1,0 +1,56 @@
+<form (ngSubmit)="submitForm()">
+  <!-- Section Races -->
+  <div class="form-group">
+    <label for="race" class="text-primary">Race:</label>
+    <select id="race" name="race" class="form-control custom-select" [(ngModel)]="selectedRace">
+      <option value="">Sélectionner une race</option>
+      <option *ngFor="let race of races" [value]="race">{{ race }}</option>
+    </select>
+  </div>
+
+  <!-- Section Subraces -->
+  <div class="form-group">
+    <label for="subrace" class="text-primary">Sous-race:</label>
+    <select id="subrace" name="subrace" class="form-control custom-select" [(ngModel)]="selectedSubrace">
+      <option value="">Sélectionner une sous-race</option>
+      <option *ngFor="let subrace of (selectedRace ? subraces[selectedRace] : [])" [value]="subrace">{{ subrace }}</option>
+    </select>
+  </div>
+
+  <!-- Section Choix Job ou Métier -->
+  <div class="form-group">
+    <label class="text-primary">Choix:</label>
+    <select id="choice" name="choice" class="form-control custom-select" [(ngModel)]="selectedChoice">
+      <option value="job">Job</option>
+      <option value="craft">Métier</option>
+    </select>
+  </div>
+
+  <!-- Section Job -->
+  <div class="form-group" *ngIf="selectedChoice === 'job'">
+    <label for="job" class="text-primary">Job:</label>
+    <select id="job" name="job" class="form-control custom-select" [(ngModel)]="selectedJob">
+      <option value="">Sélectionner un job</option>
+      <option *ngFor="let job of jobs" [value]="job">{{ job }}</option>
+    </select>
+  </div>
+
+  <!-- Section Métier -->
+  <div class="form-group" *ngIf="selectedChoice === 'craft'">
+    <label for="craft" class="text-primary">Métier:</label>
+    <select id="craft" name="craft" class="form-control custom-select" [(ngModel)]="selectedCraft">
+      <option value="">Sélectionner un métier</option>
+      <option *ngFor="let craft of Crafts" [value]="craft">{{ craft }}</option>
+    </select>
+  </div>
+
+  <!-- Section Level -->
+  <div class="form-group">
+    <label for="level" class="text-primary">Niveau:</label>
+    <input type="number" id="level" name="level" class="form-control" [(ngModel)]="selectedLevel" min="1" max="100">
+  </div>
+
+  
+
+  <button type="submit" class="btn btn-primary">Ton Personnage</button>
+</form>

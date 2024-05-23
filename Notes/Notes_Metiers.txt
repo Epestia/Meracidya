@@ -1,0 +1,12 @@
+Métiers :
+    Forgeron (FOR)
+    Armurier (ARM)
+    Menuisier (MEN)
+    Orfèvre (ORF)
+    Tanneur (TAN)
+    Couturier (COU)
+    Alchimiste (ALC)
+    Cuisinier (CUIS)
+    Botaniste (BTN)
+    Mineur (MIN)
+    Pêcheur (PCH)

@@ -1,0 +1,18 @@
+
+    h1,h2 {
+        font-family: 'Roboto Slab', serif;
+        text-decoration: underline;
+    }
+    
+
+
+/* Style pour justifier le texte */
+p {
+    text-align: justify;
+}
+
+/* Style pour les images */
+.img-tank {
+    max-width: 100%;
+    height: auto;
+}
